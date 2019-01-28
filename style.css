@@ -83,4 +83,113 @@ input {
   
  .content {
     background-color: #ecf0f1;
+    height: auto;
  }
+.text1, .text2, .text3{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    top: 1250px;
+    
+}
+.text1{
+    left: 155px;
+}
+.text2{
+    left: 530px;
+}
+.text3{
+    right: 155px;
+}
+.text1 a, .text2 a, .text3 a{
+    border: groove 1px;
+    font-size: 24px;
+    color: rgb(69, 72, 81);
+    font-family: "KeplerStd";
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    text-decoration: none;
+}
+.box2 h2{
+    font-size: 48px;
+    font-family: "KeplerStd";
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 438px;
+    top: 1394px;
+}
+.box2{
+    margin: -100px;
+}
+.thalie{
+    position: absolute;
+    left: 126px;
+}
+.thalie_text{
+    position: absolute;
+    left: 278px;
+    width: 270px;
+    height: 300px;
+    top: 0px;
+    background-color: white;
+}
+
+.montage{
+    position: absolute;
+    left: 690px;
+}
+.montage_text{
+    position: absolute;
+    width: 277px;
+    height: 300px;
+    background: white;
+    top: 0px;
+    left: 278px; 
+}
+.casa{
+    position: absolute;
+    top: 1890px;
+    left: 125px;
+}
+.casa_text{
+    position: absolute;
+    width: 277px;
+    height: 300px;
+    background: white;
+    top: 0px;
+    left: 279px;
+}
+.jaguar{
+    position: absolute;
+    top: 1888px;
+    left: 690px;
+}
+.jaguar_text{
+    position: absolute;
+    width: 277px;
+    height: 300px;
+    background: white;
+    top: 0px;
+    left: 279px;   
+}
+.thalie_text h3, .montage_text h3, .casa_text h3, .jaguar_text h3{
+    padding: 0px 20px;
+    font-family: "KeplerStd";
+    font-weight: bold;
+    line-height: 1.2;
+}
+.thalie_text p, .montage_text p, .casa_text p, .jaguar_text p{
+    padding: 0px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-family: "ProximaNova";
+    color: rgb(69, 72, 81);
+    line-height: 1.375;
+}
+
+  
