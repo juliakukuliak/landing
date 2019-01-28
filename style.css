@@ -125,6 +125,7 @@ input {
 }
 .box2{
     margin: -100px;
+    height: 825px;
 }
 .thalie{
     position: absolute;
@@ -191,5 +192,11 @@ input {
     color: rgb(69, 72, 81);
     line-height: 1.375;
 }
+.little_img1, .little_img2, .little_img3, .little_img4{
+    display: flex;
+    flex-direction: row;
+    margin-top: -72px;
+}
+
 
   
