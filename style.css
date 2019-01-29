@@ -38,26 +38,23 @@ h1{
     display: flex;
     justify-content: center;
     background: white;
-    margin-top: -83px;
-}
-form{
-    display: flex;
-    background-color: white;
     width: 970px;
+    left: 195px;
+    top: 755px;
+    position: absolute;
     height: 163px;
-    justify-content: center;
 }
-ul{
+.search ul{
     padding: 35px;
     width: 135px;
     
 }
-input {
+.search button {
     border-radius: 50%;
-    background-color: rgb(243, 17, 49);
+    background-color: red;
     position: absolute;
-    left: 1088px;
-    top: 800px;
+    left: 875px;
+    top: 60px;
     width: 41px;
     height: 40px;
   }
@@ -197,6 +194,126 @@ input {
     flex-direction: row;
     margin-top: -72px;
 }
+.box3{
+    height: 380px;
+}
+.box3 h2{
+    font-size: 48px;
+    font-family: "KeplerStd";
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 438px;
+    top: 2215px;
+}
+.talor{
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    left: 124px;
+    top: 2370px;
+}
+.best{
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    left: 515px;
+    top: 2370px;
+}
+.service{
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    top: 2370px;
+    right: 120px;
+}
+svg{
+    margin: 0px 130px;
+}
+.box3 h3{
+    text-align: center
+}
+.box3 p{
+    padding: 0px 25px;
+    text-align: center;
+}
+.service img{
+    position: absolute;
+    right: 154px;
+    top: 30px;
+}
+.best img{
+    position: absolute;
+    left: 154px;
+    top: 30px;
+}
+.talor img{
+    position: absolute;
+    left: 154px;
+    top: 30px;
+}
+form{
+    position: absolute;
+    width: 390px;
+    height: 400px;
+    top: 2809px;
+    right: 180px;
+    background: white;
+}
+.group { 
+	position: relative;
+    margin-bottom: 19px;
+    width: 313px;
+    padding: 0px 33px;
+}
+.group h3{
+    font-size: 30px;
+    font-family: "KeplerStd";
+}
+input {
+    font-size: 17px;
+    padding: 10px 0px 20px;
+    -webkit-appearance: none;
+    display: block;
+    width: 313px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    font-size: 16px;
+    font-family: "ProximaNova";
+    line-height: 1.5;
+}
+input:focus { outline: none; }
 
+button{
+    background-color: red;
+    position: absolute;
+    left: 33px;
+    top: 310px;
+    width: 95px;
+    height: 41px;
+    border-radius: 44px;
+    font-size: 14px;
+    font-family: "ProximaNova";
+    text-transform: uppercase;
+    line-height: 1.571;
+    text-align: center;
+    position: absolute;
+  }
+.footer{
+    color: white;
+    background-color: #171d1c;
+    height: 300px;
+}
+.inform{
+    display: flex;
+    justify-content: flex-start;
+}
+.inform a{
+    color: white;
+    text-decoration: none;
+}
+  
+  
+  
 
   
