@@ -301,7 +301,7 @@ button{
   }
 .footer{
     color: white;
-    background-color: #192221;
+    background-color: #171d1c;
     height: 300px;
     position: absolute;
     width: 1366px;
@@ -315,6 +315,7 @@ button{
 .inform a{
     color: white;
     text-decoration: none;
+    
 }
 .phone{
     position: absolute;
@@ -323,6 +324,10 @@ button{
 }
 .phone li, .inform li{
     list-style-type: none;
+    line-height: 23px;
+}
+.inform-my ul{
+   columns: 2;
 }
   
   
