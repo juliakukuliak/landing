@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: KeplerStd;
+    font-family: LustScript; 
+    font-family: ProximaNova;
+    src: url(fonts/KeplerStd-Regular.otf); 
+    src: url(fonts/LustScript.otf);
+    src: url(fonts/ProximaNova.otf);
+   }
 .container{
     max-width: 1366px;
     margin: 0 auto;
@@ -16,7 +23,16 @@
     text-decoration: none;
     font-family: "ProximaNova";
     color: black;
+    text-transform: uppercase;
 }
+
+.header .nav-element:nth-child(3) { 
+    font-size: 36px;
+    font-family: "LustScript";
+    color: rgb(23, 29, 28);
+    line-height: 0.583;
+}
+
 .baner{
     max-width: 1366px;
     height: 760px;
@@ -329,6 +345,14 @@ button{
 .inform-my ul{
    columns: 2;
 }
+.Private_Holidays {
+    
+    text-align: left;
+    position: absolute;
+    left: 521.937px;
+    top: 40.312px;
+    z-index: 180;
+  }
   
   
   
