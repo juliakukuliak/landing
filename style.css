@@ -301,16 +301,28 @@ button{
   }
 .footer{
     color: white;
-    background-color: #171d1c;
+    background-color: #192221;
     height: 300px;
+    position: absolute;
+    width: 1366px;
+    top: 3208px;
 }
-.inform{
+.inform {
     display: flex;
     justify-content: flex-start;
+    margin-left: 30px;
 }
 .inform a{
     color: white;
     text-decoration: none;
+}
+.phone{
+    position: absolute;
+    right: 155px;
+    top: 10px;
+}
+.phone li, .inform li{
+    list-style-type: none;
 }
   
   
